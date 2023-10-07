@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: go-jenkins-argocd-app
-          image: shnartho/go-jenkins-argocd:12
+          image: shnartho/go-jenkins-argocd:14
           ports:
             - containerPort: 80
 
