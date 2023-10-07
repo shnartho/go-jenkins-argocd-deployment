@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx-reverse-proxy
-          image: shnartho/go-jenkins-argocd:12
+          image: shnartho/go-jenkins-argocd:13
           ports:
             - containerPort: 80
 
