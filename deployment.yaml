@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-reverse-proxy
+  name: go-jenkins-argocd-app
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
-      app: nginx-reverse-proxy
+      app: go-jenkins-argocd-app
   template:
     metadata:
       labels:
-        app: nginx-reverse-proxy
+        app: go-jenkins-argocd-app
     spec:
       containers:
-        - name: nginx-reverse-proxy
-          image: shnartho/go-jenkins-argocd:14
+        - name: go-jenkins-argocd-app
+          image: shnartho/go-jenkins-argocd:11
           ports:
             - containerPort: 80
 
