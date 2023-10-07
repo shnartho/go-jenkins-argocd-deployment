@@ -8,7 +8,7 @@ spec:
 
   source: 
     repoURL: https://github.com/shnartho/go-jenkins-argocd-deployment.git
-    targerRevision: HEAD
+    targetRevision: HEAD
     path: .
   
   destination:
