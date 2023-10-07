@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-reverse-proxy-service
+  name: go-jenkins-argocd-service
 spec:
   selector:
-    app: nginx-reverse-proxy
+    app: go-jenkins-argocd-app
   ports:
     - protocol: TCP
       port: 80
