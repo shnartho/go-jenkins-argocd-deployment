@@ -6,7 +6,7 @@
 ![](./images/app-service-port.png)
 ![](./images/v1d.png)
 ![](./images/v1acd.png)
-![](./images/v1.png)
+![](./images/v11.png)
 
 #### 🟢 As soon as deployment.yaml file got updated with new image tag 14, argoCD will sync, pull image from dockerhub and deploy new updated container based on the image build number 14.Therefore, version 3.1.2 is now being servered by argoCD and service file is doing the load balancing and inside each container nginx is doing reverse proxy.
 ![](./images/v3d.png)
